@@ -1,20 +1,28 @@
 
     
+    let thumbnail = document.querySelector("#leftcard");
+    const leftPlayer = document.querySelector(".resetbtn");
+
+    function displayCards(images) {
+        
+        for (let i = 0; i < 20; i++){
+            console.log(images[i].card_images[0].image_url)
+        }
+     
     
-    function displayCards(card){
-console.log(card);
+
+
+    
+    
     }
-    
-    
-    
-    
     
     async function fetchCards() {
     try {
     let cards = await axios.get("https://db.ygoprodeck.com/api/v7/cardinfo.php");
-    
-    console.log(cards);
-    displayCards(cards.data);
+    let images = cards.data.data;
+    console.log(images);
+    console.log(typeof images)
+    displayCards(images);
     }catch (error) {
     console.log(error);
     }finally {
