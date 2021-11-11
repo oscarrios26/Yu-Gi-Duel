@@ -1,20 +1,22 @@
 
     
-    let thumbnail = document.querySelector("#leftcard");
-    const leftPlayer = document.querySelector(".resetbtn");
-
+    let thumbnail = document.querySelector(".leftaside");
+    let leftPlayer = document.querySelector(".resetbtn");
+        
     function displayCards(images) {
         
-        for (let i = 0; i < 20; i++){
-            console.log(images[i].card_images[0].image_url)
+        for (let i = 0; i < 50; i++){
+            // console.log(images[i].card_images[0].image_url)
+            let imagesOfCards = images[i].card_images[0].image_url;
+            // console.log(imagesOfCards);
+            allCards=[imagesOfCards];
+            console.log(allCards);
         }
+    };
+
+    
      
-    
 
-
-    
-    
-    }
     
     async function fetchCards() {
     try {
