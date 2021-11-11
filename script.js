@@ -1,6 +1,6 @@
 
     
-    let leftplayer = document.querySelector(".leftaside");
+    let leftplayer = document.querySelector(".asideleft");
     // let = document.querySelector(".resetbtn");
 
      // let thumbnail =document.createElement("img");
@@ -21,8 +21,15 @@
            
 
             // console.log(newArr);
-    const randomItem = newArr[Math.floor(Math.random()*newArr.length)];
-    console.log(randomItem);
+        const randomItem = newArr[Math.floor(Math.random()*newArr.length)];
+        console.log(randomItem);
+
+
+            let thumbnail =document.createElement("img");
+            thumbnail.setAttribute("src", randomItem[0]);
+            leftplayer.appendChild(thumbnail)
+        
+        
     };
 
     
