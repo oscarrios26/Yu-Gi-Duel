@@ -1,21 +1,21 @@
 
     
-    let player1Btn = document.querySelector(".btn");
+    
     let rightAside = document.querySelector(".right")
     
     
-    newArr =[];
+        newArr =[];
 
-    function displayCards(images) {
+        function displayCards(images) {
         
         for (let i = 0; i < 50; i++){
             
-            let imagesOfCards = images[i].card_images[0].image_url;
+        let imagesOfCards = images[i].card_images[0].image_url;
         
-            newArr.push(imagesOfCards)
-            setRandomCardLeft();
-            setRandomCardRight();
-           }
+        newArr.push(imagesOfCards)
+        setRandomCardLeft();
+        setRandomCardRight();
+        }
         };
 
         
@@ -25,31 +25,30 @@
         console.log(randomItem);
         let img = document.querySelector("#leftCard");
         img.setAttribute("src", randomItem);
+       
         };
+        
             
         
         
-            function setRandomCardRight(){
-            const randomItemRight = newArr[Math.floor(Math.random()*newArr.length)];
-            console.log(randomItemRight);
-            let img = document.querySelector("#rightCard");
-            img.setAttribute("src", randomItemRight);
-            };
+        function setRandomCardRight(){
+        const randomItemRight = newArr[Math.floor(Math.random()*newArr.length)];
+        console.log(randomItemRight);
+        let img = document.querySelector("#rightCard");
+        img.setAttribute("src", randomItemRight);
+        };
 
         
 
-       
+        const leftButtonPlayer = document.querySelector("#btnLeft");
+        leftButtonPlayer.addEventListener("click", () => {
+           console.log(leftButtonPlayer)
+        });
+            
         
         
    
-        // function setRandomCardRight(){
-        
-        //     let imgRight = document.createElement("img");
-        //     imgRight.src = randomItem;
-        //     rightAside.appendChild(imgRight);
-
-        // }
-            
+       
             
         
       
