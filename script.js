@@ -30,8 +30,9 @@
       
        
     };
+    displayCards(images);
 
-    
+    // leftbtn.addEventListener("click")
     
     
     async function fetchCards() {
