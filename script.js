@@ -1,7 +1,7 @@
 
     
     // let leftplayer = document.querySelector("#divleft");
-    // let rightplayer = document.querySelector("#rightimg");
+    let rightplayer = document.querySelector("#rightimg");
     newArr =[];
 
     function displayCards(images) {
@@ -25,7 +25,7 @@
         // leftplayer.appendChild(img);
       
         // let img2 = document.querySelector("#rightimg");
-        // img2.setAttribute("src", "https://storage.googleapis.com/ygoprodeck.com/pics/22933016.jpg");
+        // righplayer.setAttribute("src", "");
         // // img2.appendChild(img2);
       
        
