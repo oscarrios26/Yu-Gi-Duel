@@ -50,7 +50,13 @@
         
         
         
-   
+        function resume(){
+            
+            let imgLeft = document.querySelector("#leftCard");
+            imgLeft.style.visibility= "visible";
+            let imgRight= document.querySelector("#rightCard");
+            imgRight.style.visibility= "visible";
+        };
        
             
         
