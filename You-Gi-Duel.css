@@ -72,12 +72,12 @@ article {
   
   
   
-  .resetbtn {
+  .reset {
     position: relative;
     font-size: 25px;
     border-radius: 10px;
     padding: 1px 40px;
-    margin-left: 200px;
+    margin-left: 3px;
     
   }
   
@@ -90,12 +90,20 @@ article {
     color: rgb(14, 12, 12);
   }
   
+  .leftbtn {
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 1px 40px;
+    margin-left: 125px;
+    margin-bottom: 50px;
+  } 
   
   
   
   
   
-  @media screen and (max-width: 300px) {
+  
+  /* @media screen and (max-width: 300px) {
     /* main {
         flex-direction:row;
     }
@@ -110,7 +118,7 @@ article {
 
         
     } */
-    .resetbtn {
+    /* .reset {
       margin-right: 100px;
-    }
-  }
+    } */
+  /* } */ 

@@ -1,7 +1,7 @@
 
     
     // let leftplayer = document.querySelector("#divleft");
-    let rightplayer = document.querySelector("#rightimg");
+    let rightdiv = document.querySelector(".right");
     newArr =[];
 
     function displayCards(images) {
@@ -24,9 +24,9 @@
         img.setAttribute("src", randomItem);
         // leftplayer.appendChild(img);
       
-        // let img2 = document.querySelector("#rightimg");
-        // righplayer.setAttribute("src", "");
-        // // img2.appendChild(img2);
+        // let thumbnail = document.createElement("img");
+        // thumbnail.setAttribute("src", randomItem);
+        // rightdiv.appendChild(thumbnail);
       
        
     };
