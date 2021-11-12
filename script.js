@@ -1,35 +1,57 @@
 
     
-    let leftbuttonn = document.querySelector("#leftbtn");
-    let rightdiv = document.querySelector(".right");
+    let player1Btn = document.querySelector(".btn");
+    let rightAside = document.querySelector(".rigth")
+    
+    
     newArr =[];
 
     function displayCards(images) {
         
         for (let i = 0; i < 50; i++){
-            //  console.log(images[i].card_images[0].image_url)
+            
             let imagesOfCards = images[i].card_images[0].image_url;
         
             newArr.push(imagesOfCards)
-            setRandomCards();
+            setRandomCardLeft();
+           
         }
 
 
     };
 
-        function setRandomCards(){
+        function setRandomCardLeft(){
         const randomItem = newArr[Math.floor(Math.random()*newArr.length)];
         console.log(randomItem);
         let img = document.querySelector("img");
         img.setAttribute("src", randomItem);
-        };
-
-    // displayCards(im)
-
-        // leftbuttonn.addEventListener("submit", () => {
-        //     console.log("sdsdsfdf");
         
-        // });
+
+
+         
+        };
+        
+
+        
+
+       
+        
+        
+   
+        function setRandomCardRight(){
+        
+            let imgRight = document.createElement("img");
+            imgRight.src = randomItem;
+            rightAside.appendChild(imgRight);
+
+        }
+            
+            
+        //     let img1 = document.querySelector(".righcard");
+        //     img1.setAttribute("src", randomItem);
+        //     };
+             
+            
 
        
       
