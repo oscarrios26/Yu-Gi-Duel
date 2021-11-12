@@ -1,12 +1,7 @@
 
     
-    let leftplayer = document.querySelector(".asideleft");
-    // let = document.querySelector(".resetbtn");
-
-     // let thumbnail =document.createElement("img");
-            // thumbnail.setAttribute("src", allCards[i]);
-            // leftplayer.appendChild(thumbnail)
-        
+    // let leftplayer = document.querySelector("#divleft");
+    // let rightplayer = document.querySelector("#rightimg");
     newArr =[];
 
     function displayCards(images) {
@@ -25,17 +20,19 @@
         console.log(randomItem);
 
 
-            let thumbnail =document.createElement("img");
-            thumbnail.setAttribute("src", randomItem[0]);
-            leftplayer.appendChild(thumbnail)
-        
-        
+        let img = document.querySelector("img");
+        img.setAttribute("src", randomItem);
+        // leftplayer.appendChild(img);
+      
+        // let img2 = document.querySelector("#rightimg");
+        // img2.setAttribute("src", "https://storage.googleapis.com/ygoprodeck.com/pics/22933016.jpg");
+        // // img2.appendChild(img2);
+      
+       
     };
 
     
-
-
-
+    
     
     async function fetchCards() {
     try {
