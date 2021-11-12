@@ -39,12 +39,15 @@
         };
 
         
-
-        const leftButtonPlayer = document.querySelector("#btnLeft");
-        leftButtonPlayer.addEventListener("click", () => {
-           console.log(leftButtonPlayer)
-        });
+        function reset(){
             
+            let imgLeft = document.querySelector("#leftCard");
+            imgLeft.style.visibility= "hidden";
+            let imgRight= document.querySelector("#rightCard");
+            imgRight.style.visibility= "hidden";
+        };
+           
+        
         
         
    

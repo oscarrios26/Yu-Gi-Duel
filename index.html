@@ -15,7 +15,7 @@
   
   <main>
     <article>
-      <button class = "reset">Reset</button>
+      <button onclick="reset()" class = "reset">Reset</button>
       <p class = "copyrights">You-Gi-Duel: &copy;</p>
     </article>
 
@@ -23,14 +23,14 @@
 
     <aside class='left'>
       
-      <button type="submit" class="btn">Player 1</button>
+      <button onclick="setRandomCardLeft()" type="submit" id="btnLeft">Player 1</button>
       <img id="leftCard" src="">
     </aside>
 
     
     
     <aside class="right">
-      <button type="submit" class="btnRight">Player 2</button>
+      <button onclick="setRandomCardRight()" type="submit" class="btnRight">Player 2</button>
       <img id="rightCard" src="">
       </aside>
     
