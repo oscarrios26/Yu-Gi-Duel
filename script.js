@@ -1,6 +1,6 @@
 
     
-    // let leftplayer = document.querySelector("#divleft");
+    let leftbuttonn = document.querySelector("#leftbtn");
     let rightdiv = document.querySelector(".right");
     newArr =[];
 
@@ -11,28 +11,35 @@
             let imagesOfCards = images[i].card_images[0].image_url;
         
             newArr.push(imagesOfCards)
+            setRandomCards();
         }
 
-           
 
-            // console.log(newArr);
+    };
+
+        function setRandomCards(){
         const randomItem = newArr[Math.floor(Math.random()*newArr.length)];
         console.log(randomItem);
-
-
         let img = document.querySelector("img");
         img.setAttribute("src", randomItem);
-        // leftplayer.appendChild(img);
+        };
+
+    // displayCards(im)
+
+        // leftbuttonn.addEventListener("submit", () => {
+        //     console.log("sdsdsfdf");
+        
+        // });
+
+       
       
-        // let thumbnail = document.createElement("img");
-        // thumbnail.setAttribute("src", randomItem);
-        // rightdiv.appendChild(thumbnail);
+        
       
        
-    };
-    displayCards(images);
+    
+    
 
-    // leftbtn.addEventListener("click")
+    
     
     
     async function fetchCards() {
