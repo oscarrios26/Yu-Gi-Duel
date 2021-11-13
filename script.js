@@ -8,7 +8,7 @@
 
         function displayCards(images) {
         
-        for (let i = 0; i < 50; i++){
+        for (let i = 0; i < 320; i++){
             
         let imagesOfCards = images[i].card_images[0].image_url;
         
