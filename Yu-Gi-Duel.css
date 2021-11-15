@@ -1,4 +1,3 @@
-
 /* Flex-box */
 article {
   background-image: url("https://pbs.twimg.com/media/EWITy1SWAAAJCKF.jpg");
@@ -8,7 +7,7 @@ article {
   padding: 100px;
   box-sizing: border-box;
   
-  
+
 }
 
 aside {
@@ -16,13 +15,14 @@ aside {
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
- 
+
 }
 
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100%vh;
+  min-height: 100vh;
+  
 }
 
 main {
@@ -43,11 +43,13 @@ article {
 }
 
 #rightCard{
-margin-left: 40px;
+margin-left: 50px;
 }
- 
+
 #leftCard {
-  margin-left: 80px;
+margin-left: 50px;
+padding-bottom: 120px;
+
 }
 
 
@@ -55,130 +57,156 @@ margin-left: 40px;
 
 
 
-/* Buttons */
+
+
+
+
+
+
 
 .copyrights {
-position: relative;
-font-size: 30px;
-top: 550px;
-text-align: center;
-font-weight: bold;
-color: rgb(14, 12, 12);
+  position: relative;
+  font-size: 30px;
+  top: 500px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(14, 12, 12);
+  }
+  
 
-}
-
-#btnLeft{
-box-shadow: 0px 0px 0px 2px #ebaeae;
-background:linear-gradient(to bottom, #dbb51b 5%, #9c4646 100%);
-background-color:#dbb51b;
-border-radius:10px;
-border:1px solid #4e6096;
-display:inline-block;
-cursor:pointer;
-color:#ffffff;
-font-family:Arial;
-font-size:  30px;
-padding:5px 37px;
-text-decoration:none;
-text-shadow:0px 1px 0px #283966;
-margin-left: 120px;
-margin-bottom: 20px;
-margin-top: 20px;
-}
-#btnLeft:hover {
-background:linear-gradient(to bottom, #9c4646 5%, #dbb51b 100%);
-background-color:#9c4646;
-}
-#btnLeft:active {
-position:relative;
-top:1px;
-}
-
-.btnRight {
-box-shadow: 0px 0px 0px 2px #ebaeae;
-background:linear-gradient(to bottom, #dbb51b 5%, #9c4646 100%);
-background-color:#dbb51b;
-border-radius:10px;
-border:1px solid #4e6096;
-display:inline-block;
-cursor:pointer;
-color:#ffffff;
-font-family:Arial;
-font-size:30px;
-padding:5px 37px;
-text-decoration:none;
-text-shadow:0px 1px 0px #283966;
-margin-left: 120px;
-margin-bottom: 20px;
-margin-top: 20px;
-
-}
-.btnRight:hover {
-background:linear-gradient(to bottom, #9c4646 5%, #dbb51b 100%);
-background-color:#9c4646;
-}
-.btnRight:active {
-position:relative;
-top:1px;
-}
-
-
-.reset {
-box-shadow: 0px 0px 0px 2px #ebaeae;
-background:linear-gradient(to bottom, #dbb51b 5%, #9c4646 100%);
-background-color:#dbb51b;
-border-radius:10px;
-border:1px solid #4e6096;
-display:inline-block;
-cursor:pointer;
-color:#ffffff;
-font-family:Arial;
-font-size:30px;
-padding:5px 53px;
-text-decoration:none;
-text-shadow:0px 1px 0px #283966;
-margin: 0 auto;
-}
-.reset:hover {
-background:linear-gradient(to bottom, #9c4646 5%, #dbb51b 100%);
-background-color:#9c4646;
-}
-.reset:active {
-position:relative;
-top:1px;
-}
-
-
+  /* Buttons */
+  
+  #btnLeft{
+  box-shadow: 0px 0px 0px 2px #ebaeae;
+  background:linear-gradient(to bottom, #dbb51b 5%, #9c4646 100%);
+  background-color:#dbb51b;
+  border-radius:10px;
+  border:1px solid #4e6096;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:  30px;
+  padding:5px 37px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #283966;
+  margin-left: 160px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  }
+  #btnLeft:hover {
+  background:linear-gradient(to bottom, #9c4646 5%, #dbb51b 100%);
+  background-color:#9c4646;
+  }
+  #btnLeft:active {
+  position:relative;
+  top:1px;
+  }
+  
+  .btnRight {
+  box-shadow: 0px 0px 0px 2px #ebaeae;
+  background:linear-gradient(to bottom, #dbb51b 5%, #9c4646 100%);
+  background-color:#dbb51b;
+  border-radius:10px;
+  border:1px solid #4e6096;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:30px;
+  padding:5px 37px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #283966;
+  margin-left: 160px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
+  }
+  .btnRight:hover {
+  background:linear-gradient(to bottom, #9c4646 5%, #dbb51b 100%);
+  background-color:#9c4646;
+  }
+  .btnRight:active {
+  position:relative;
+  top:1px;
+  }
+  
+  
+  .reset {
+  box-shadow: 0px 0px 0px 2px #ebaeae;
+  background:linear-gradient(to bottom, #dbb51b 5%, #9c4646 100%);
+  background-color:#dbb51b;
+  border-radius:10px;
+  border:1px solid #4e6096;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:30px;
+  padding:5px 53px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #283966;
+  margin: 0 auto;
+  }
+  .reset:hover {
+  background:linear-gradient(to bottom, #9c4646 5%, #dbb51b 100%);
+  background-color:#9c4646;
+  }
+  .reset:active {
+  position:relative;
+  top:1px;
+  }
+  
+  
+  .resume {
+  box-shadow: 0px 0px 0px 2px #ebaeae;
+  background:linear-gradient(to bottom, #dbb51b 5%, #9c4646 100%);
+  background-color:#dbb51b;
+  border-radius:10px;
+  border:1px solid #4e6096;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:30px;
+  padding:5px 37px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #283966;
+  margin: 20px auto;
+  }
+  .resume:hover {
+  background:linear-gradient(to bottom, #9c4646 5%, #dbb51b 100%);
+  background-color:#9c4646;
+  }
+  .resume:active {
+  position:relative;
+  top:1px;
+  }
+  
+  @media screen and (max-width: 700px) {
+  main {
+    flex-direction: column;
+  }
+  article {
+    order: 0;
+  }
+ .reset {
+   margin-left: 55px;
+ }
 .resume {
-box-shadow: 0px 0px 0px 2px #ebaeae;
-background:linear-gradient(to bottom, #dbb51b 5%, #9c4646 100%);
-background-color:#dbb51b;
-border-radius:10px;
-border:1px solid #4e6096;
-display:inline-block;
-cursor:pointer;
-color:#ffffff;
-font-family:Arial;
-font-size:30px;
-padding:5px 37px;
-text-decoration:none;
-text-shadow:0px 1px 0px #283966;
-margin: 20px auto;
+  margin-left: 55px;
 }
-.resume:hover {
-background:linear-gradient(to bottom, #9c4646 5%, #dbb51b 100%);
-background-color:#9c4646;
+.copyrights {
+  top: 1670px;
 }
-.resume:active {
-position:relative;
-top:1px;
+#rightCard {
+  margin-bottom: 60px;
+}
 }
 
-@media screen and (max-width: 900px) {
-main {
-  flex-direction: column;
-}
-article {
-  order: 0;
-}
-}
+
+
+
+
+
+

@@ -72,6 +72,7 @@ async function fetchCards() {
     try {
     let cards = await axios.get("https://db.ygoprodeck.com/api/v7/cardinfo.php");
     let images = cards.data.data;
+    console.log(images);
     displayCards(images);
     }catch (error) {
     console.log(error);
