@@ -3,7 +3,7 @@
 ## Project Name
 
 Yu-Gi-Duel:
-https://oscarrios26.github.io/Yugioh/
+https://oscarrios26.github.io/Yu-Gi-Duel/
 
 ## Project Description
 
