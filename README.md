@@ -2,8 +2,8 @@
 
 ## Project Name
 
-Yu-Gi-Duel:
-https://oscarrios26.github.io/Yu-Gi-Duel/
+<a href="https://oscarrios26.github.io/Yu-Gi-Duel/">Yu-Gi-Duel</a>
+
 
 ## Project Description
 
